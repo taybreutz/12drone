@@ -21,6 +21,7 @@ class Drone:
 
 
 Drone_1 = Drone("taytay", "s1919", "100%")
-print(Drone_1)
+print(f"Hello officer, my name is " + Drone_1.nickname + ", I am a model " + Drone_1.model + " and I have " + Drone_1.battery_percentage + " battery! LETS FUCKING GO!")
 
+print(dir(Drone_1))
 
